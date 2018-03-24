@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>私の自己紹介</title>
+		<link rel="stylesheet" href="3.css">
+	</head>
+
+	<body>
+		<div id="wrap">
+			<header>
+				<h1>私の自己紹介</h1>
+			</header>
+
+			<nav>
+				<ul>
+					<li><a href="index.html">ホーム</a></li>
+					<li><a href="family.html">家族</a></li>
+					<li><a href="contact.html">お問い合わせ</a></li>
+					</ul>
+			</nav>
+
+			<main>
+				<section>
+					<h1>私の映像</h1>
+					<video src="video.mp4" autoplay controls width="314"></video>
+				</section>
+
+				<section>
+					<h1>私の好きな曲</h1>
+					<audio src="audio.mp3" controls></audio>
+				</section>
+				
+				<section>
+					<h1>私のイラスト</h1>
+					<canvas id="canvas1" width="200" height="200"></canvas>
+				
+					<script>
+						var ctx1 = document.getElementById("canvas1").getContext("2d");
+						ctx1.strokeStyle="pink";
+						ctx1.moveTo(50,70);
+						ctx1.lineTo(100,120);
+						ctx1.lineTo(150,70);
+						ctx1.lineWidth=100;
+						ctx1.lineCap="round";
+						ctx1.stroke();
+					</script>
+				</section>
+			</main>
+		
+			<footer>
+				<p><small>Copyright (C) 2016 Shunji Nakashima. All Rights reserved.</small></p>
+			</footer>
+		</div>
+	</body>
+
+</html>
