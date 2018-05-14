@@ -1,0 +1,30 @@
+*{margin:0;padding:0;font-size:25px;box-sizing:border-box;}
+#wrap{width:100%;padding:10px;display:flex;flex-direction:column;height:100vh;}
+#outer{
+	flex:1;		/*高さが狭い時はこの数字を変更する*/
+	overflow:scroll;
+	border:1px solid gray;padding:5px;
+}
+#editor{
+	height:5000px;width:100%;
+	display:block;
+	line-height:30px;
+	padding:0em;
+	font-family:'Source Code Pro', monospace;
+	tab-size:2;
+	background:linear-gradient(white 50%,#eee 50%);
+	background-size:auto 60px;
+	border:none;
+	outline:none;
+}
+p{margin:10px 0;}
+button,a{border:1px solid gray;background-color:#eee;
+	displey:block;width:30%;height:4em;margin:1px;}
+.flex{display :flex;}
+.btn{font-size:13px;flex:1;}
+#btn{background-color:skyblue;width:90%;}
+.temp{background-color:yellow;}
+#clrbtn{background-color:pink;}
+#msg{font-size:0.5em;}
+h1{font-size:0.5em;background-color:#999;color:white;text-align:center;}
+#download{display:block;line-height:50px;text-decoration:none;text-align:center;background-color:#aaa;color:white;}
