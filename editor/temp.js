@@ -1,3 +1,10 @@
+$id("temp1").addEventListener("click",function(){
+	$id("editor").value
+=`
+`;
+});
+
+
 $id("temp4").addEventListener("click",function(){
 	$id("editor").value
 =`<!DOCTYPE html>
