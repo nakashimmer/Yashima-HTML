@@ -2,7 +2,7 @@
 #wrap{width:100%;padding:10px;display:flex;flex-direction:column;height:100vh;}
 #outer{
 	flex:1;		/*高さが狭い時はこの数字を変更する*/
-	overflow:scroll;
+	overflow:scrollY;
 	border:1px solid gray;padding:5px;
 }
 #editor{
