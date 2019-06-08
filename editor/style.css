@@ -19,6 +19,9 @@
 	background-size:auto 60px;
 	font-family:'Source Code Pro', monospace;
 	font-size:20px;color:#999;
+} 
+#no div{
+	line-height:30px;
 }
 #editor{
 	height:5000px;flex:1;
