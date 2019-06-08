@@ -17,13 +17,14 @@
 	height:5000px;
 	background:linear-gradient(white 50%,#eee 50%);
 	background-size:auto 60px;
+
+} 
+#no div{
+	line-height:30px;
 	font-family:'Source Code Pro', monospace;
 	font-size:16px;color:#999;
 	text-align:right;
 	font-style:italic;
-} 
-#no div{
-	line-height:30px;
 }
 #editor{
 	height:5000px;flex:1;
