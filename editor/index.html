@@ -8,7 +8,7 @@
 		<script src="jquery-1.11.1.js"></script>
 	</head>
 	<body>
-		<form method="post" enctype="multipart/form-data" action="https://validator.w3.org/check" >
+		
 		<div id=wrap>
 	
 			<h1>簡易テキストエディタβ版</h1>
@@ -16,7 +16,7 @@
 			<div id=outer>
 				<div id="no"></div>
 
-				<textarea id="editor" name="fragment"spellcheck="false"></textarea>
+				<textarea id="editor" name="fragment"spellcheck="false" form="w3c"></textarea>
 
 				<input type="hidden" name="prefill" value="0">
 				<input type="hidden" name="doctype"  value="Inline">
@@ -40,7 +40,9 @@
 				<button id="temp12" class="temp btn">12</button>
 				<button id="temp13" class="temp btn">13</button>
 				<button id="clrbtn" class="btn">消去</button>
-				<input class="temp btn" type="submit" value="チェック">
+				<form id="w3c" method="post" enctype="multipart/form-data" action="https://validator.w3.org/check" >
+					<input class="temp btn" type="submit" value="チェック">
+				</form>
 			</p>
 
 			<!-- DL -->
@@ -106,7 +108,7 @@ for(let i=1;i<=5000/30;i++){
 
 <script src="temp.js"></script>
 			
-		</form>
+		
 	</body>
 </html>
 
