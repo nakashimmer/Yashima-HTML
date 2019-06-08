@@ -10,12 +10,11 @@
 	overflow:scroll;
 	border:1px solid gray;padding:5px;
 	width:100%;
-	display;flex;
+	display:flex;
 }
 #no{
 	width:3em;
 	height:5000px;
-	border:1px solid gray;
 }
 #editor{
 	height:5000px;flex:1;
