@@ -6,31 +6,42 @@
 <script src="jquery-1.11.1.js"></script>
 
 <div id=wrap>
-	<h1>簡易テキストエディタβ版</h1>
-	<div id=outer>
-		<div id="no"></div>
-		<textarea id="editor" spellcheck="false"></textarea>
-	</div>
-	<p class=flex>
-		<button id="btn" class="btn">閲覧</button>
-		<a class="temp btn" id="download" href="#" download="noname.html" onclick="dl()">DL</a>
-		<button id="temp1" class="temp btn">3</button>
-		<button id="temp4" class="temp btn">4</button>
-		<button id="temp5" class="temp btn">5</button>
-		<button id="temp6-1" class="temp btn">6-1</button>
-		<button id="temp6-2" class="temp btn">6-2</button>
-		<button id="temp7" class="temp btn">7</button>
-		<button id="temp8" class="temp btn">8</button>
-		<button id="temp9-1" class="temp btn">9-1</button>
-		<button id="temp9-2" class="temp btn">9-2</button>
-		<button id="temp10" class="temp btn">10</button>
-		<button id="temp11" class="temp btn">11</button>
-		<button id="temp12" class="temp btn">12</button>
-		<button id="temp13" class="temp btn">13</button>
-		<button id="clrbtn" class="btn">消去</button>
-	</p>
 	
+	<h1>簡易テキストエディタβ版</h1>
+	<form method="post" enctype="multipart/form-data" action="https://validator.w3.org/check" >
+		<div id=outer>
+			<div id="no"></div>
+			
+			<textarea id="editor" name="fragment"spellcheck="false"></textarea>
+			
+			<input type="hidden" name="prefill" value="0">
+			<input type="hidden" name="doctype"  value="Inline">
+			<input type="hidden" name="prefill_doctype" value="html5">
+			
+		</div>
+		<p class=flex>
+			<button id="btn" class="btn">閲覧</button>
+			<a class="temp btn" id="download" href="#" download="noname.html" onclick="dl()">DL</a>
+			<button id="temp1" class="temp btn">3</button>
+			<button id="temp4" class="temp btn">4</button>
+			<button id="temp5" class="temp btn">5</button>
+			<button id="temp6-1" class="temp btn">6-1</button>
+			<button id="temp6-2" class="temp btn">6-2</button>
+			<button id="temp7" class="temp btn">7</button>
+			<button id="temp8" class="temp btn">8</button>
+			<button id="temp9-1" class="temp btn">9-1</button>
+			<button id="temp9-2" class="temp btn">9-2</button>
+			<button id="temp10" class="temp btn">10</button>
+			<button id="temp11" class="temp btn">11</button>
+			<button id="temp12" class="temp btn">12</button>
+			<button id="temp13" class="temp btn">13</button>
+			<button id="clrbtn" class="btn">消去</button>
+			<input  class="temp btn" type="submit" value="チェック">
+		
+		</p>
+	</form>
 	<!-- DL -->
+	
 	<script>
 		function dl() {
 			var content = $id("editor").value;
