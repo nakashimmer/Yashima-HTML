@@ -14,6 +14,8 @@
 }
 #no{
 	width:3em;
+	height:5000px;
+	border:1px solid gray;
 }
 #editor{
 	height:5000px;flex:1;
