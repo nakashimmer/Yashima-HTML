@@ -255,7 +255,7 @@ $id("temp10-2-1").addEventListener("click",function(){
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>擬似クラス</title>
+		<title>疑似要素</title>
 		<style>
 
 		</style>
@@ -281,7 +281,7 @@ $id("temp10-2-2").addEventListener("click",function(){
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>擬似クラス</title>
+		<title>疑似要素</title>
 		<style>
 
 		</style>
