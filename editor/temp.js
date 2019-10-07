@@ -214,7 +214,7 @@ $id("temp9-2").addEventListener("click",function(){
 		</style>
 	</head>
 	<body>
-		<div id="box1"></div>
+		<div id="box1">CSSアニメーション</div>
 	</body>
 </html>`;
 });
@@ -249,6 +249,50 @@ $id("temp10").addEventListener("click",function(){
 </html>`;
 });
 
+$id("temp10-2-1").addEventListener("click",function(){
+	$id("editor").value
+=`<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>擬似クラス</title>
+		<style>
+
+		</style>
+	</head>
+	<body>
+		<h2>見出し1</h2>
+		<p>コンテンツ1</p>
+ 		<h2>見出し2</h2>
+		<p>コンテンツ1</p>
+		<h2>見出し3</h2>
+		<p>コンテンツ1</p>
+ 		<h2>見出し4</h2>
+		<p>コンテンツ1</p>
+		<h2>見出し5</h2>
+		<p>コンテンツ1</p>
+	</body>
+</html>`;
+});
+
+$id("temp10-2-2").addEventListener("click",function(){
+	$id("editor").value
+=`<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>擬似クラス</title>
+		<style>
+
+		</style>
+	</head>
+	<body>
+		<p>むかしむかし、おじいさんとおばあさんがなかよく住んでいました。
+		おじいさんは柴刈りに、おばあさんは川に洗濯にでかけました。
+		おばあさんが選択していると、川の上から大きな桃がどんぶらこどんぶらこと流れ得てきました。</p>
+	</body>
+</html>`;
+});
 
 
 $id("temp11").addEventListener("click",function(){

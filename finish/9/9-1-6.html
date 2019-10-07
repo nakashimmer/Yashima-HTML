@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>CSSアニメーション</title>
+		<title>CSSトランジション</title>
 		<style>
 			div{
 				width:200px;height:200px;
@@ -12,17 +12,16 @@
 				border:1px solid gray;
 			}
 			
-			#box1{
-				border-color:red blue green yellow;
-				border-radius:50%;
-				animation:spinner1 3s linear infinite normal;
+			#box1{transition:all 1s linear;}
+			#box1:hover{
+				color:white;
+				background-color:green;
+				width:300px;
 			}
-			@keyframes spinner1{
-				100%{transform:rotate(360deg);}
-			}
+			
 		</style>
 	</head>
 	<body>
-		<div id="box1"></div>
+		<div id="box1">CSSトランジション</div>
 	</body>
 </html>

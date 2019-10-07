@@ -12,11 +12,17 @@
 				border:1px solid gray;
 			}
 			
-			#box1{transition:transform 1s linear;}
-			#box1:hover{transform:rotate(30deg);}
+			#box1{
+				border-color:red blue green yellow;
+				border-radius:50%;
+				animation:daihon1 3s linear infinite normal;
+			}
+			@keyframes daihon1{
+				50%{color:red;}
+			}
 		</style>
 	</head>
 	<body>
-		<div id="box1">CSSトランジション</div>
+		<div id="box1">CSSアニメーション</div>
 	</body>
 </html>
