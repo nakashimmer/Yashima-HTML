@@ -1,2 +1,2 @@
 # YashimaHTML
-https://nakashimmer.github.io/YashimaHTML/
+https://nakashimmer.github.io/Yashima-HTML/
