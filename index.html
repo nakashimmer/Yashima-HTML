@@ -1,77 +1,163 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<!-- Google Analytics --><script src="./ga.js"></script>
+		<!-- Google Analytics -->
+		<script src="./ga.js"></script>
 		<link rel="icon" href="favicon.ico">
 		<meta charset="utf-8">
 		<title>授業ページ|楽しいホームページの制作</title>
 		<link rel="shortcut icon" href="finish//UNIV/yashima/favicon.ico">
 		<style>
-			*{
-				margin:0;padding:0;font-size:16px;
-				list-style-type:none;
+			* {
+				margin: 0;
+				padding: 0;
+				font-size: 16px;
+				list-style-type: none;
 			}
-			header h1{
-				font-size:1.3em;line-height:6em;
-				text-align:center;
-				background:url(yashiman.png) no-repeat;
-				background-size:auto 100%;
-				background-position:100% 0;
-				animation:yashimaru 10s linear 10s 1 normal;
+			body{
+				background-color: #666;
+				color:white;
 			}
-			@keyframes yashimaru{
-				50%{background-position:20% 0;}
-				70%{background-position:10% 0;}
-				72%{background-position:12% 0;}
-				74%{background-position:10% 0;
-					background-image:url(yashiman.png);
+
+			header h1 {
+				text-shadow:3px 3px 3px black;
+				font-size: 1.3em;
+				line-height: 6em;
+				text-align: center;
+				background: url(yashiman.png) no-repeat;
+				background-size: auto 100%;
+				background-position: 100% 0;
+				animation: yashimaru 10s linear 10s 1 normal;
+			}
+
+			@keyframes yashimaru {
+				50% {
+					background-position: 20% 0;
 				}
-				74.5%{background-image:url(yashimaru.png);}
-				80%{background-position:15% 0;}
-				82%{background-position:20% 0;}
-				90%{background-position:20% 0;}
-				93%{background-position:100% 0;}
-				95%{background-position:20% 0;}
-				96%{background-image:url(yashimaru.png);}
-				97%{background-image:url(yashiman.png);}
+
+				70% {
+					background-position: 10% 0;
+				}
+
+				72% {
+					background-position: 12% 0;
+				}
+
+				74% {
+					background-position: 10% 0;
+					background-image: url(yashiman.png);
+				}
+
+				74.5% {
+					background-image: url(yashimaru.png);
+				}
+
+				80% {
+					background-position: 15% 0;
+				}
+
+				82% {
+					background-position: 20% 0;
+				}
+
+				90% {
+					background-position: 20% 0;
+				}
+
+				93% {
+					background-position: 100% 0;
+				}
+
+				95% {
+					background-position: 20% 0;
+				}
+
+				96% {
+					background-image: url(yashimaru.png);
+				}
+
+				97% {
+					background-image: url(yashiman.png);
+				}
 			}
 
-
-			
-			
-			header p{background-color:#eee;padding:5px;border-radius:20px;
-				text-align:center;
-				margin:3px 0;
+			header p {
+				background-color: #eee;
+				padding: 5px;
+				border-radius: 20px;
+				text-align: center;
+				margin: 3px 0;
 			}
-			#wrap{max-width:800px;margin:0 auto;}
-			h2,h3{text-indent: 0.5em;}
-			section{margin:5px;border:1px solid gray;border-radius:10px;overflow:hidden;flex:1;}
-			section h1{background-color:#eee;padding:5px;height:3em;}
-			ol{list-style:none;margin:10px;}
-			.flex{display:flex;}
-			footer{text-align:center;}
-			li::before{content:"🍎"}
-			li:hover::before{content:"🍏"}
 
-			a{text-decoration:none;}
-			
-			@media(max-width:600px){
-				.flex{display:block;}
+			#wrap {
+				max-width: 800px;
+				margin: 0 auto;
+			}
+
+			h2,
+			h3 {
+				text-indent: 0.5em;
+			}
+
+			section {
+				margin: 5px;
+				border: 1px solid gray;
+				border-radius: 10px;
+				overflow: hidden;
+				flex: 1;
+				background-color: #333;
+			}
+
+			section h1 {
+				background-color: #111;
+				padding: 5px;
+				line-height: 3em;
+				text-indent:1em;
+			}
+
+			ol {
+				list-style: none;
+				margin: 10px;
+			}
+
+			.flex {
+				display: flex;
+			}
+
+			footer {
+				text-align: center;
+			}
+
+			li::before {
+				content: "🍎"
+			}
+
+			li:hover::before {
+				content: "🍏"
+			}
+
+			a {
+				text-decoration: none;
+				color:skyblue;
+			}
+
+			@media(max-width:600px) {
+				.flex {
+					display: block;
+				}
 			}
 		</style>
 	</head>
-
 	<body>
 		<div id="wrap">
 			<header>
 				<h1>楽しいホームページの制作 授業ページ</h1>
 			</header>
-			
 			<main>
-			<div class=flex>
-				<section>
-					<h1>1.インターネットとWeb</h1>
-					<h2>いろいろなWebページ</h2>
+				<div class=flex>
+					<section>
+						<h1>1.インターネットとWeb</h1>
+						<h2>いろいろなWebページ</h2>
 						<h3>1-1. 黎明期</h3>
 						<ol>
 							<li><a target=_blank href="http://info.cern.ch/hypertext/WWW/TheProject.html">CERN</a></li>
@@ -80,215 +166,226 @@
 						<ol>
 							<li><a target="_blank" href="https://www.yashima.ac.jp/univ/">八洲学園大学</a></li>
 						</ol>
-						
 						<h3>2-2. 今どき</h3>
 						<ol>
-							<li><a target="_blank"  href="https://miyako-guide.net/">動画を用いたサイト</a></li>
+							<li><a target="_blank" href="https://eco-island.jp/">動画を用いたサイト</a></li>
 							<li><a target="_blank" href="https://webtechpromo.org/">レスポンシブウエブデザイン</a></li>
 							<li><a target="_blank" href="http://www.tokyobase.co.jp/">パララックス(視差効果)</a></li>
 							<li><a target="_blank" href="http://jojodesign.jp/">Canvas描画</a></li>
-							<li><a target="_blank" href="https://www.google.com/doodles/celebrating-ludwig-van-beethovens-245th-year">Google doodles</a></li>
+							<li><a target="_blank"
+									href="https://www.google.com/doodles/celebrating-ludwig-van-beethovens-245th-year">Google doodles</a>
+							</li>
 						</ol>
-				</section><section>
-					<h1>2.教材</h1>
-					<ol>
-						<li><a target=_blank href="https://renshukun.azurewebsites.net/renshuKun/?select=yashima-HTML5"><b>簡易テキストエディタ</b></a></li>
-					
-						<li><a target=_blank href="https://note.com/_nakashimmer_/n/n8a5563d15fea">テキストエディタ(VSCode)</a></li>
-							
-					
-					</ol>
-					
-				</section><section>
-					<h1>3.HTMLの基本</h1>
-					<ol>
-						<li><a target=_blank href="finish/3/3-1.html">3-1.記述</a></li>
-						<li><a target=_blank href="finish/3/3-2.html">3-2.大まかな構造</a></li>
-						<li><a target=_blank href="finish/3/3-3-1.html">3-3-1.head要素</a></li>
-						<li><a target=_blank href="finish/3/3-3-2.html">3-3-2.body要素</a></li>
-						<li><a target=_blank href="finish/3/3-3-3.html">3-3-3.header要素</a></li>
-						<li><a target=_blank href="finish/3/3-3-4.html">3-3-4.nav要素</a></li>
-						<li><a target=_blank href="finish/3/3-3-5.html">3-3-5.main要素</a></li>
-						<li><a target=_blank href="finish/3/3-3-6.html">3-3-6.footer要素</a></li>
-					</ol>
-				</section>
-
-			</div>
-			<div class=flex>
-				
-				<section>
-					<h1>4.CSSの基本</h1>
-					<ol>
-						<li><a target=_blank href="finish/4/4-1.html">4-1.CSSの記述</a></li>
-						<li><a target=_blank href="finish/4/4-2-1.html">4-2-1.リセットCSS</a></li>
-						<li><a target=_blank href="finish/4/4-2-2.html">4-2-2.ページ全体</a></li>
-						<li><a target=_blank href="finish/4/4-2-3.html">4-2-3.ヘッダー</a></li>
-						<li><a target=_blank href="finish/4/4-2-4.html">4-2-4.ナビゲーション</a></li>
-						<li><a target=_blank href="finish/4/4-2-5.html">4-2-5.セクション</a></li>
-						<li><a target=_blank href="finish/4/4-2-6.html">5-2-6.フッター</a></li>
-					</ol>
-				</section>
-
-				<section>
-					<h1>5.様々なHTML</h1>
-					<ol>
-						<li><a target=_blank href="finish/5/5-1.html">5-1.</a></li>
-						<li><a target=_blank href="finish/5/5-1-1.html">5-1-1.強調・重要</a></li>
-						<li><a target=_blank href="finish/5/5-1-2.html">5-1-2.引用</a></li>
-						<li><a target=_blank href="finish/5/5-1-3.html">5-1-3.ルビ</a></li>
-						<li><a target=_blank href="finish/5/5-1-4.html">5-1-4.コード・整形済テキスト</a></li>
-						<li><a target=_blank href="finish/5/5-1-5.html">5-1-5.添字</a></li>
-						<li><a target=_blank href="finish/5/5-2-1.html">5-2-1.映像</a></li>
-						<li><a target=_blank href="finish/5/5-2-2.html">5-2-2.音声</a></li>
-						<li><a target=_blank href="finish/5/5-3.html">5-3.進捗・診断</a></li>
-						<li><a target=_blank href="finish/5/5-4.html">5-4.ボタン</a></li>
-						<li><a target=_blank href="finish/5/5-5.html">5-5.入力</a></li>
-						<li><a target=_blank href="finish/5/5-6.html">5-6.入力のいろいろ</a></li>
-						<li><a target=_blank href="finish/5/5-7.html">5-7.描画</a></li>
-					</ol>
-				</section>
-
-				<section>
-					<h1>6.CSSセレクタとプロパティ</h1>
-					<ol>
-						<li><a target=_blank href="finish/6/6-1.html">6-1.セレクタ</a></li>
-						<li><a target=_blank href="finish/6/6-2-1.html">6-2-1.プロパティ</a></li>
-					</ol>
-				</section>
-			
-			</div>
-			<div class=flex>
-				
-				<section>
-					<h1>7.リッチなデザイン</h1>
-					<ol>
-						<li><a target=_blank href="finish/7/7-1.html">7-1</a></li>
-						<li><a target=_blank href="finish/7/7-2.html">7-2.背景画像</a></li>
-						<li><a target=_blank href="finish/7/7-3.html">7-3.影</a></li>
-						<li><a target=_blank href="finish/7/7-4.html">7-4.角丸</a></li>
-						<li><a target=_blank href="finish/7/7-5.html">7-5.グラデーション</a></li>
-					</ol>
-				</section><section>
-					<h1>8.変形のCSS</h1>
-					<ol>
-						<li><a target=_blank href="finish/8/8-1.html">8-1</a></li>
-						<li><a target=_blank href="finish/8/8-1-1.html">8-1-1.回転</a></li>
-						<li><a target=_blank href="finish/8/8-1-2.html">8-1-2.伸縮</a></li>
-						<li><a target=_blank href="finish/8/8-1-3.html">8-1-3.移動</a></li>
-						<li><a target=_blank href="finish/8/8-1-4.html">8-1-4.変形の合成</a></li>
-					</ol>
-				</section>
-
-				<section>
-					<h1>9.CSSアニメーション</h1>
-					<ol>
-						<li><a target=_blank href="finish/9/9-1-1.html">9-1-1.回転のトランジション</a></li>
-						<li><a target=_blank href="finish/9/9-1-2.html">9-1-2.伸縮のトランジション</a></li>
-						<li><a target=_blank href="finish/9/9-1-3.html">9-1-3.移動のトランジション</a></li>
-						<li><a target=_blank href="finish/9/9-1-4.html">9-1-4.変形の合成</a></li>
-						<li><a target=_blank href="finish/9/9-1-5.html">9-1-5.CSSのトランジション</a></li>
-						<li><a target=_blank href="finish/9/9-1-6.html">9-1-6.複数のトランジション</a></li>
-
-						<li><a target=_blank href="finish/9/9-2-1.html">9-2-1.回転のアニメーション</a></li>
-						<li><a target=_blank href="finish/9/9-2-2.html">9-2-2.伸縮のアニメーション</a></li>
-						<li><a target=_blank href="finish/9/9-2-3.html">9-2-3.移動のアニメーション</a></li>
-						<li><a target=_blank href="finish/9/9-2-4.html">9-2-4.CSSのアニメーション</a></li>
-					</ol>
-				</section>
-			</div>
-			<div class=flex>
-				<section>
-					<h1>10.擬似クラス</h1>
-					<ol>
-						<li><a target=_blank href="finish/10/10-1.html">10-1.疑似クラス</a></li>
-						<li><a target=_blank href="finish/10/10-1-1.html">10-1-1.最初と最後</a></li>
-						<li><a target=_blank href="finish/10/10-1-2.html">10-1-2.奇数と偶数</a></li>
-						<li><a target=_blank href="finish/10/10-1-3.html">10-1-3.何番目</a></li>
-						<li><a target=_blank href="finish/10/10-1-4.html">10-1-4.何番目ごと</a></li>
-						<li><a target=_blank href="finish/10/10-2-1.html">10-2-1.before/after</a></li>
-						<li><a target=_blank href="finish/10/10-2-2.html">10-2-2.first-line</a></li>
-						<li><a target=_blank href="finish/10/10-2-3.html">10-2-3.first-letter</a></li>
-					</ol>
-				</section>
-
-				<section>
-					<h1>11.JSの基本</h1>
-					<ol>
-						<li><a target=_blank href="finish/11/11-1-1.html">11-1-1.記述の方法</a></li>
-						<li><a target=_blank href="finish/11/11-1-2.html">11-1-2.文字列の連結</a></li>
-						<li><a target=_blank href="finish/11/11-1-3.html">11-1-3.if文</a></li>
-						<li><a target=_blank href="finish/11/11-1-4.html">11-1-4.乱数</a></li>
-						<li><a target=_blank href="finish/11/11-1-5.html">11-1-5.おみくじ</a></li>
-					</ol>
-					<h2>JSのサンプル</h2>
-					<ol>
-						<li><a target=_blank href="https://nakashimmer.github.io/showcase/JS/calculate/kesan/index.html">計算</a></li>
-						<li><a target=_blank href="https://nakashimmer.github.io/showcase/JS/calculate/bmi/index.html">BMI</a></li>
-						<li><a target=_blank href="https://nakashimmer.github.io/showcase/JS/calculate/uranai/index.html">占い</a></li>
-						<li><a target=_blank href="https://nakashimmer.github.io/showcase/JS/calculate/timer/index.html">タイマー</a></li>
-						<li><a target=_blank href="https://nakashimmer.github.io/showcase/JS/calculate/clock/index.html">時計</a></li>
-						<li><a target=_blank href="https://nakashimmer.github.io/showcase/JS/calculate/maimai/index.html">500px競争</a></li>
-					</ol>
-				</section><section>
-					<h1>12.JSでコンテンツ操作</h1>
-					<ol>
-						<li><a target=_blank href="finish/12/12-1.html">12-1.要素の取得</a></li>
-						<li><a target=_blank href="finish/12/12-2.html">12-2.出力</a></li>
-						<li><a target=_blank href="finish/12/12-3.html">12-3.入力</a></li>
-					</ol>
-			
-				</section>
-			</div>
-			<div class=flex>
-				<section>
-					<h1>13.JSでCSS操作</h1>
-					<ol>
-						<li><a target=_blank href="finish/13/13-1.html">13-1.基本的な記述</a></li>
-						<li><a target=_blank href="finish/13/13-2.html">13-2.ハイフンのCSS</a></li>
-					</ol>
-				</section><section>
-					<h1>14.Webアプリケーション</h1>
-					<ol>
-
-						<li><a target=_blank href="https://nakashimmer.github.io/showcase/JS/offlineStorage/localStorage/index.html">データ・ストレージ</a></li>
-						<li><a target=_blank href="https://ja.monaca.io/">Monaca</a></li>
-						<li><a target=_blank href="https://www.youtube.com/watch?v=5VQkIOMMV_o">Web of Thing</a></li>
-						<li><a target=_blank href="https://nakashimmer.github.io/showcase/JS/deviceAccess/webaudio/synthesizer/index.html">シンセサイザ</a></li>
-						<li><a target=_blank href="https://nakashimmer.github.io/showcase/JS/multimedia/audio/index.html">音声</a></li>
-						<li><a target=_blank href="https://nakashimmer.github.io/showcase/JS/multimedia/video/index.html">映像</a></li>
-						<li><a target=_blank href="https://nakashimmer.github.io/showcase/JS/deviceAccess/gps/index.html">GPS</a></li>
-						<li><a target=_blank href="https://nakashimmer.github.io/showcase/JS/deviceAccess/speechSynthesis/recognition/index.html">音声認識と読み上げ(マイク必要)</a></li>
-						<li><a target=_blank href="https://nakashimmer.github.io/showcase/JS/deviceAccess/speechSynthesis/ai/index.html">人工知能と会話</a></li>
-						<li><a target=_blank href="https://nakashimmer.github.io/showcase/JS/3dGraphicsEffects/canvas/oekaki/index.html">お絵かき</a></li>
-						<li><a target=_blank href="https://nakashimmer.github.io/showcase/JS/3dGraphicsEffects/canvas/tepco/index.html">電力使用量</a></li>
-					</ol>
-				</section><section>
-					<h1>参考</h1>
-					<h2>サンプルページ</h2>
-					<ol>
-						<li><a target=_blank href="https://nakashimmer.github.io/showcase/">HTML5 Showcase</a></li>
-					</ol>
-					<h2>検証ツール</h2>
-					<ol>
-						<li><a target=_blank href="https://validator.w3.org/">W3C HTML検証</a></li>
-						<li><a target=_blank href="https://jigsaw.w3.org/css-validator/validator.html.ja">W3C CSS検証</a></li>
-					</ol>
-				
-					<h2>更に学びを深める</h2>
-					<ol>
-						<li>なかしまぁ先生のHTML5教室
-							<a href="https://www.amazon.co.jp/dp/4802096607/">amazon</a></li>
-						
-						</li>
-						<li><a target=_blank href="https://www.street-academy.com/steachers/1274?conversion_name=direct_message&tracking_code=f3037c532c76e32eb5636350d0147bc9">一日まるごとどっぷりHTML5教室(リアル教室)</a></li>
-					</ol>
-			</div>
+					</section>
+					<section>
+						<h1>2.教材</h1>
+						<ol>
+							<li><a target=_blank
+									href="https://renshukun.azurewebsites.net/renshuKun/?select=yashima-HTML5"><b>簡易テキストエディタ</b></a></li>
+							<li><a target=_blank href="https://note.com/_nakashimmer_/n/n8a5563d15fea">テキストエディタ(VSCode)</a></li>
+						</ol>
+					</section>
+					<section>
+						<h1>3.HTMLの基本</h1>
+						<ol>
+							<li><a target=_blank href="finish/3/3-1.html">3-1.記述</a></li>
+							<li><a target=_blank href="finish/3/3-2.html">3-2.大まかな構造</a></li>
+							<li><a target=_blank href="finish/3/3-3-1.html">3-3-1.head要素</a></li>
+							<li><a target=_blank href="finish/3/3-3-2.html">3-3-2.body要素</a></li>
+							<li><a target=_blank href="finish/3/3-3-3.html">3-3-3.header要素</a></li>
+							<li><a target=_blank href="finish/3/3-3-4.html">3-3-4.nav要素</a></li>
+							<li><a target=_blank href="finish/3/3-3-5.html">3-3-5.main要素</a></li>
+							<li><a target=_blank href="finish/3/3-3-6.html">3-3-6.footer要素</a></li>
+						</ol>
+					</section>
+				</div>
+				<div class=flex>
+					<section>
+						<h1>4.CSSの基本</h1>
+						<ol>
+							<li><a target=_blank href="finish/4/4-1.html">4-1.CSSの記述</a></li>
+							<li><a target=_blank href="finish/4/4-2-1.html">4-2-1.リセットCSS</a></li>
+							<li><a target=_blank href="finish/4/4-2-2.html">4-2-2.ページ全体</a></li>
+							<li><a target=_blank href="finish/4/4-2-3.html">4-2-3.ヘッダー</a></li>
+							<li><a target=_blank href="finish/4/4-2-4.html">4-2-4.ナビゲーション</a></li>
+							<li><a target=_blank href="finish/4/4-2-5.html">4-2-5.セクション</a></li>
+							<li><a target=_blank href="finish/4/4-2-6.html">5-2-6.フッター</a></li>
+						</ol>
+					</section>
+					<section>
+						<h1>5.様々なHTML</h1>
+						<ol>
+							<li><a target=_blank href="finish/5/5-1.html">5-1.</a></li>
+							<li><a target=_blank href="finish/5/5-1-1.html">5-1-1.強調・重要</a></li>
+							<li><a target=_blank href="finish/5/5-1-2.html">5-1-2.引用</a></li>
+							<li><a target=_blank href="finish/5/5-1-3.html">5-1-3.ルビ</a></li>
+							<li><a target=_blank href="finish/5/5-1-4.html">5-1-4.コード・整形済テキスト</a></li>
+							<li><a target=_blank href="finish/5/5-1-5.html">5-1-5.添字</a></li>
+							<li><a target=_blank href="finish/5/5-2-1.html">5-2-1.映像</a></li>
+							<li><a target=_blank href="finish/5/5-2-2.html">5-2-2.音声</a></li>
+							<li><a target=_blank href="finish/5/5-3.html">5-3.進捗・診断</a></li>
+							<li><a target=_blank href="finish/5/5-4.html">5-4.ボタン</a></li>
+							<li><a target=_blank href="finish/5/5-5.html">5-5.入力</a></li>
+							<li><a target=_blank href="finish/5/5-6.html">5-6.入力のいろいろ</a></li>
+							<li><a target=_blank href="finish/5/5-7.html">5-7.描画</a></li>
+						</ol>
+					</section>
+					<section>
+						<h1>6.CSSセレクタとプロパティ</h1>
+						<ol>
+							<li><a target=_blank href="finish/6/6-1.html">6-1.セレクタ</a></li>
+							<li><a target=_blank href="finish/6/6-2-1.html">6-2-1.プロパティ</a></li>
+						</ol>
+					</section>
+				</div>
+				<div class=flex>
+					<section>
+						<h1>7.リッチなデザイン</h1>
+						<ol>
+							<li><a target=_blank href="finish/7/7-1.html">7-1</a></li>
+							<li><a target=_blank href="finish/7/7-2.html">7-2.背景画像</a></li>
+							<li><a target=_blank href="finish/7/7-3.html">7-3.影</a></li>
+							<li><a target=_blank href="finish/7/7-4.html">7-4.角丸</a></li>
+							<li><a target=_blank href="finish/7/7-5.html">7-5.グラデーション</a></li>
+						</ol>
+					</section>
+					<section>
+						<h1>8.変形のCSS</h1>
+						<ol>
+							<li><a target=_blank href="finish/8/8-1.html">8-1</a></li>
+							<li><a target=_blank href="finish/8/8-1-1.html">8-1-1.回転</a></li>
+							<li><a target=_blank href="finish/8/8-1-2.html">8-1-2.伸縮</a></li>
+							<li><a target=_blank href="finish/8/8-1-3.html">8-1-3.移動</a></li>
+							<li><a target=_blank href="finish/8/8-1-4.html">8-1-4.変形の合成</a></li>
+						</ol>
+					</section>
+					<section>
+						<h1>9.CSSアニメーション</h1>
+						<ol>
+							<li><a target=_blank href="finish/9/9-1-1.html">9-1-1.回転のトランジション</a></li>
+							<li><a target=_blank href="finish/9/9-1-2.html">9-1-2.伸縮のトランジション</a></li>
+							<li><a target=_blank href="finish/9/9-1-3.html">9-1-3.移動のトランジション</a></li>
+							<li><a target=_blank href="finish/9/9-1-4.html">9-1-4.変形の合成</a></li>
+							<li><a target=_blank href="finish/9/9-1-5.html">9-1-5.CSSのトランジション</a></li>
+							<li><a target=_blank href="finish/9/9-1-6.html">9-1-6.複数のトランジション</a></li>
+							<li><a target=_blank href="finish/9/9-2-1.html">9-2-1.回転のアニメーション</a></li>
+							<li><a target=_blank href="finish/9/9-2-2.html">9-2-2.伸縮のアニメーション</a></li>
+							<li><a target=_blank href="finish/9/9-2-3.html">9-2-3.移動のアニメーション</a></li>
+							<li><a target=_blank href="finish/9/9-2-4.html">9-2-4.CSSのアニメーション</a></li>
+						</ol>
+					</section>
+				</div>
+				<div class=flex>
+					<section>
+						<h1>10.擬似クラス</h1>
+						<ol>
+							<li><a target=_blank href="finish/10/10-1.html">10-1.疑似クラス</a></li>
+							<li><a target=_blank href="finish/10/10-1-1.html">10-1-1.最初と最後</a></li>
+							<li><a target=_blank href="finish/10/10-1-2.html">10-1-2.奇数と偶数</a></li>
+							<li><a target=_blank href="finish/10/10-1-3.html">10-1-3.何番目</a></li>
+							<li><a target=_blank href="finish/10/10-1-4.html">10-1-4.何番目ごと</a></li>
+							<li><a target=_blank href="finish/10/10-2-1.html">10-2-1.before/after</a></li>
+							<li><a target=_blank href="finish/10/10-2-2.html">10-2-2.first-line</a></li>
+							<li><a target=_blank href="finish/10/10-2-3.html">10-2-3.first-letter</a></li>
+						</ol>
+					</section>
+					<section>
+						<h1>11.JSの基本</h1>
+						<ol>
+							<li><a target=_blank href="finish/11/11-1-1.html">11-1-1.記述の方法</a></li>
+							<li><a target=_blank href="finish/11/11-1-2.html">11-1-2.文字列の連結</a></li>
+							<li><a target=_blank href="finish/11/11-1-3.html">11-1-3.if文</a></li>
+							<li><a target=_blank href="finish/11/11-1-4.html">11-1-4.乱数</a></li>
+							<li><a target=_blank href="finish/11/11-1-5.html">11-1-5.おみくじ</a></li>
+						</ol>
+						<h2>JSのサンプル</h2>
+						<ol>
+							<li><a target=_blank href="https://nakashimmer.github.io/showcase/JS/calculate/kesan/index.html">計算</a>
+							</li>
+							<li><a target=_blank href="https://nakashimmer.github.io/showcase/JS/calculate/bmi/index.html">BMI</a>
+							</li>
+							<li><a target=_blank href="https://nakashimmer.github.io/showcase/JS/calculate/uranai/index.html">占い</a>
+							</li>
+							<li><a target=_blank href="https://nakashimmer.github.io/showcase/JS/calculate/timer/index.html">タイマー</a>
+							</li>
+							<li><a target=_blank href="https://nakashimmer.github.io/showcase/JS/calculate/clock/index.html">時計</a>
+							</li>
+							<li><a target=_blank
+									href="https://nakashimmer.github.io/showcase/JS/calculate/maimai/index.html">500px競争</a></li>
+						</ol>
+					</section>
+					<section>
+						<h1>12.JSでコンテンツ操作</h1>
+						<ol>
+							<li><a target=_blank href="finish/12/12-1.html">12-1.要素の取得</a></li>
+							<li><a target=_blank href="finish/12/12-2.html">12-2.出力</a></li>
+							<li><a target=_blank href="finish/12/12-3.html">12-3.入力</a></li>
+						</ol>
+					</section>
+				</div>
+				<div class=flex>
+					<section>
+						<h1>13.JSでCSS操作</h1>
+						<ol>
+							<li><a target=_blank href="finish/13/13-1.html">13-1.基本的な記述</a></li>
+							<li><a target=_blank href="finish/13/13-2.html">13-2.ハイフンのCSS</a></li>
+						</ol>
+					</section>
+					<section>
+						<h1>14.Webアプリケーション</h1>
+						<ol>
+							<li><a target=_blank
+									href="https://nakashimmer.github.io/showcase/JS/offlineStorage/localStorage/index.html">データ・ストレージ</a>
+							</li>
+							<li><a target=_blank href="https://ja.monaca.io/">Monaca</a></li>
+							<li><a target=_blank href="https://www.youtube.com/watch?v=5VQkIOMMV_o">Web of Thing</a></li>
+							<li><a target=_blank
+									href="https://nakashimmer.github.io/showcase/JS/deviceAccess/webaudio/synthesizer/index.html">シンセサイザ</a>
+							</li>
+							<li><a target=_blank href="https://nakashimmer.github.io/showcase/JS/multimedia/audio/index.html">音声</a>
+							</li>
+							<li><a target=_blank href="https://nakashimmer.github.io/showcase/JS/multimedia/video/index.html">映像</a>
+							</li>
+							<li><a target=_blank href="https://nakashimmer.github.io/showcase/JS/deviceAccess/gps/index.html">GPS</a>
+							</li>
+							<li><a target=_blank
+									href="https://nakashimmer.github.io/showcase/JS/deviceAccess/speechSynthesis/recognition/index.html">音声認識と読み上げ(マイク必要)</a>
+							</li>
+							<li><a target=_blank
+									href="https://nakashimmer.github.io/showcase/JS/deviceAccess/speechSynthesis/ai/index.html">人工知能と会話</a>
+							</li>
+							<li><a target=_blank
+									href="https://nakashimmer.github.io/showcase/JS/3dGraphicsEffects/canvas/oekaki/index.html">お絵かき</a>
+							</li>
+							<li><a target=_blank
+									href="https://nakashimmer.github.io/showcase/JS/3dGraphicsEffects/canvas/tepco/index.html">電力使用量</a>
+							</li>
+						</ol>
+					</section>
+					<section>
+						<h1>参考</h1>
+						<h2>サンプルページ</h2>
+						<ol>
+							<li><a target=_blank href="https://nakashimmer.github.io/showcase/">HTML5 Showcase</a></li>
+						</ol>
+						<h2>検証ツール</h2>
+						<ol>
+							<li><a target=_blank href="https://validator.w3.org/">W3C HTML検証</a></li>
+							<li><a target=_blank href="https://jigsaw.w3.org/css-validator/validator.html.ja">W3C CSS検証</a></li>
+						</ol>
+						<h2>更に学びを深める</h2>
+						<ol>
+							<li>なかしまぁ先生のHTML5教室 <a href="https://www.amazon.co.jp/dp/4802096607/">amazon</a></li>
+							</li>
+							<li><a target=_blank
+									href="https://www.street-academy.com/steachers/1274?conversion_name=direct_message&tracking_code=f3037c532c76e32eb5636350d0147bc9">一日まるごとどっぷりHTML5教室(リアル教室)</a>
+							</li>
+						</ol>
+				</div>
 			</main>
-
 			<footer>
-				<p><small>(C)Nakashima Shunji.</small></p>
+				<p><small>(C)八洲学園大学 中島俊治</small></p>
 			</footer>
 		</div>
 	</body>
-
 </html>
