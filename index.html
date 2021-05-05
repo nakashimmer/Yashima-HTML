@@ -7,7 +7,6 @@
 		<meta charset="utf-8">
 		<title>授業ページ|楽しいホームページの制作</title>
 		<meta name="viewport" content="width=device-width">
-		<link rel="icon" href="favicon.ico">
 		<style>
 			* {
 				margin: 0;
@@ -96,9 +95,10 @@
 				margin: 0 auto;
 			}
 
-			h2,
-			h3 {
+			h3,
+			h4 {
 				text-indent: 0.5em;
+				padding-top: 10px;
 			}
 
 			section {
@@ -110,7 +110,7 @@
 				background-color: #333;
 			}
 
-			section h1 {
+			section h2 {
 				background-color: #111;
 				padding: 5px;
 				line-height: 3em;
@@ -143,11 +143,15 @@
 				color: skyblue;
 			}
 
+			li:hover a {
+				color: lime;
+			}
+
 			#shusei {
 				border: 3px dotted white;
 				border-radius: 1em;
 				padding: 0.5em;
-				margin:5px;
+				margin: 5px;
 			}
 
 			@media(max-width:600px) {
@@ -173,11 +177,11 @@
 						<li>7.2. 背景画像のプロパティ：url()内の値を「media/image.png」に修正</li>
 					</ul>
 				</div>
-				<div class=flex>
+				<div class="flex">
 					<section>
-						<h1>1.インターネットとWeb</h1>
-						<h2>いろいろなWebページ</h2>
-						<h3>1-1. 黎明期</h3>
+						<h2>1.インターネットとWeb</h2>
+						<h3>いろいろなWebページ</h3>
+						<h4>1-1. 黎明期</h4>
 						<ol>
 							<li><a href="http://info.cern.ch/hypertext/WWW/TheProject.html">CERN</a></li>
 						</ol>
@@ -197,15 +201,17 @@
 						</ol>
 					</section>
 					<section>
-						<h1>2.教材</h1>
+						<h2>2.教材</h2>
 						<ol>
-							<li><a 
-									href="https://renshukun.azurewebsites.net/renshuKun/?select=yashima-HTML5"><b>簡易テキストエディタ</b></a></li>
+							<li><a
+									href="https://renshukun.azurewebsites.net/renshuKun/?select=yashima-HTML5"><b>簡易テキストエディタ「練習くん」</b></a>
+							</li>
+							<li><a href="https://nakashimmer.github.io/AzureRenshuKun-Yobi/index.html"><b>「練習くん」(予備)</b></a></li>
 							<li><a href="https://note.com/_nakashimmer_/n/n8a5563d15fea">テキストエディタ(VSCode)</a></li>
 						</ol>
 					</section>
 					<section>
-						<h1>3.HTMLの基本</h1>
+						<h2>3.HTMLの基本</h2>
 						<ol>
 							<li><a href="finish/3/3-1.html">3.1.記述</a></li>
 							<li><a href="finish/3/3-2.html">3.2.大まかな構造</a></li>
@@ -220,7 +226,7 @@
 				</div>
 				<div class=flex>
 					<section>
-						<h1>4.CSSの基本</h1>
+						<h2>4.CSSの基本</h2>
 						<ol>
 							<li><a href="finish/4/4-1.html">4.1.CSSの記述</a></li>
 							<li><a href="finish/4/4-2-1.html">4.2.1.リセットCSS</a></li>
@@ -232,7 +238,7 @@
 						</ol>
 					</section>
 					<section>
-						<h1>5.様々なHTML</h1>
+						<h2>5.様々なHTML</h2>
 						<ol>
 							<li><a href="finish/5/5-1-1.html">5.1.1.強調・重要</a></li>
 							<li><a href="finish/5/5-1-2.html">5.1.2.引用</a></li>
@@ -249,16 +255,20 @@
 						</ol>
 					</section>
 					<section>
-						<h1>6.CSSセレクタとプロパティ</h1>
+						<h2>6.CSSセレクタとプロパティ</h2>
 						<ol>
 							<li><a href="finish/6/6-1.html">6.1.セレクタ</a></li>
 							<li><a href="finish/6/6-2-1.html">6.2.1.プロパティ</a></li>
+						</ol>
+						<h3>CSSのサンプル</h3>
+						<ol>
+							<li><a href="https://nakashimmer.github.io/teacherColumn2021/cssSim/index.html">CSSシミュレーション</a></li>
 						</ol>
 					</section>
 				</div>
 				<div class=flex>
 					<section>
-						<h1>7.リッチなデザイン</h1>
+						<h2>7.リッチなデザイン</h2>
 						<ol>
 							<li><a href="finish/7/7-2.html">7.2.背景画像</a></li>
 							<li><a href="finish/7/7-3.html">7.3.影</a></li>
@@ -267,7 +277,7 @@
 						</ol>
 					</section>
 					<section>
-						<h1>8.変形のCSS</h1>
+						<h2>8.変形のCSS</h2>
 						<ol>
 							<li><a href="finish/8/8-1-1.html">8.1.1.回転</a></li>
 							<li><a href="finish/8/8-1-2.html">8.1.2.伸縮</a></li>
@@ -276,7 +286,7 @@
 						</ol>
 					</section>
 					<section>
-						<h1>9.CSSアニメーション</h1>
+						<h2>9.CSSアニメーション</h2>
 						<ol>
 							<li><a href="finish/9/9-1-1.html">9.1.1.回転のトランジション</a></li>
 							<li><a href="finish/9/9-1-2.html">9.1.2.伸縮のトランジション</a></li>
@@ -293,7 +303,7 @@
 				</div>
 				<div class=flex>
 					<section>
-						<h1>10.擬似クラス</h1>
+						<h2>10.擬似クラス</h2>
 						<ol>
 							<li><a href="finish/10/10-1.html">10-1.疑似クラス</a></li>
 							<li><a href="finish/10/10-1-1.html">10.1.1.最初と最後</a></li>
@@ -306,7 +316,7 @@
 						</ol>
 					</section>
 					<section>
-						<h1>11.JSの基本</h1>
+						<h2>11.JSの基本</h2>
 						<ol>
 							<li><a href="finish/11/11-1-1.html">11.1.1.記述の方法</a></li>
 							<li><a href="finish/11/11-1-2.html">11.1.2.文字列の連結</a></li>
@@ -314,7 +324,7 @@
 							<li><a href="finish/11/11-1-4.html">11.1.4.乱数</a></li>
 							<li><a href="finish/11/11-1-5.html">11.1.5.おみくじ</a></li>
 						</ol>
-						<h2>JSのサンプル</h2>
+						<h3>JSのサンプル</h3>
 						<ol>
 							<li><a href="https://nakashimmer.github.io/showcase/JS/calculate/kesan/index.html">計算</a>
 							</li>
@@ -326,12 +336,11 @@
 							</li>
 							<li><a href="https://nakashimmer.github.io/showcase/JS/calculate/clock/index.html">時計</a>
 							</li>
-							<li><a 
-									href="https://nakashimmer.github.io/showcase/JS/calculate/maimai/index.html">500px競争</a></li>
+							<li><a href="https://nakashimmer.github.io/showcase/JS/calculate/maimai/index.html">500px競争</a></li>
 						</ol>
 					</section>
 					<section>
-						<h1>12.JSでコンテンツ操作</h1>
+						<h2>12.JSでコンテンツ操作</h2>
 						<ol>
 							<li><a href="finish/12/12-1.html">12.1.要素の取得</a></li>
 							<li><a href="finish/12/12-2.html">12.2.出力</a></li>
@@ -341,21 +350,21 @@
 				</div>
 				<div class=flex>
 					<section>
-						<h1>13.JSでCSS操作</h1>
+						<h2>13.JSでCSS操作</h2>
 						<ol>
 							<li><a href="finish/13/13-1.html">13.1.基本的な記述</a></li>
 							<li><a href="finish/13/13-2.html">13.2.ハイフンのCSS</a></li>
 						</ol>
 					</section>
 					<section>
-						<h1>14.Webアプリケーション</h1>
+						<h2>14.Webアプリケーション</h2>
 						<ol>
-							<li><a 
+							<li><a
 									href="https://nakashimmer.github.io/showcase/JS/offlineStorage/localStorage/index.html">データ・ストレージ</a>
 							</li>
 							<li><a href="https://ja.monaca.io/">Monaca</a></li>
 							<li><a href="https://www.youtube.com/watch?v=5VQkIOMMV_o">Web of Thing</a></li>
-							<li><a 
+							<li><a
 									href="https://nakashimmer.github.io/showcase/JS/deviceAccess/webaudio/synthesizer/index.html">シンセサイザ</a>
 							</li>
 							<li><a href="https://nakashimmer.github.io/showcase/JS/multimedia/audio/index.html">音声</a>
@@ -364,36 +373,36 @@
 							</li>
 							<li><a href="https://nakashimmer.github.io/showcase/JS/deviceAccess/gps/index.html">GPS</a>
 							</li>
-							<li><a 
+							<li><a
 									href="https://nakashimmer.github.io/showcase/JS/deviceAccess/speechSynthesis/recognition/index.html">音声認識と読み上げ(マイク必要)</a>
 							</li>
-							<li><a 
+							<li><a
 									href="https://nakashimmer.github.io/showcase/JS/deviceAccess/speechSynthesis/ai/index.html">人工知能と会話</a>
 							</li>
-							<li><a 
+							<li><a
 									href="https://nakashimmer.github.io/showcase/JS/3dGraphicsEffects/canvas/oekaki/index.html">お絵かき</a>
 							</li>
-							<li><a 
+							<li><a
 									href="https://nakashimmer.github.io/showcase/JS/3dGraphicsEffects/canvas/tepco/index.html">電力使用量</a>
 							</li>
 						</ol>
 					</section>
 					<section>
-						<h1>参考</h1>
-						<h2>サンプルページ</h2>
+						<h2>参考</h2>
+						<h3>サンプルページ</h3>
 						<ol>
 							<li><a href="https://nakashimmer.github.io/showcase/">HTML5 Showcase</a></li>
 						</ol>
-						<h2>検証ツール</h2>
+						<h3>検証ツール</h3>
 						<ol>
 							<li><a href="https://validator.w3.org/">W3C HTML検証</a></li>
 							<li><a href="https://jigsaw.w3.org/css-validator/validator.html.ja">W3C CSS検証</a></li>
 						</ol>
-						<h2>更に学びを深める</h2>
+						<h3>更に学びを深める</h3>
 						<ol>
 							<li>なかしまぁ先生のHTML5教室 <a href="https://www.amazon.co.jp/dp/4802096607/">amazon</a></li>
 							</li>
-							<li><a 
+							<li><a
 									href="https://www.street-academy.com/steachers/1274?conversion_name=direct_message&tracking_code=f3037c532c76e32eb5636350d0147bc9">一日まるごとどっぷりHTML5教室(リアル教室)</a>
 							</li>
 						</ol>
