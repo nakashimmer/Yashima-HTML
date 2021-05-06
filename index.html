@@ -90,6 +90,10 @@
 				margin: 3px 0;
 			}
 
+			#msg{
+				color:yellow;
+				margin:0 17px;
+			}
 			#wrap {
 				max-width: 800px;
 				margin: 0 auto;
@@ -167,6 +171,7 @@
 				<h1>楽しいホームページの制作 授業ページ</h1>
 			</header>
 			<main>
+				<p id="msg"></p>
 				<div id="shusei">
 					<h2>訂正のお知らせ</h2>
 					<ul>
@@ -412,5 +417,13 @@
 				<p><small>(C)八洲学園大学 中島俊治</small></p>
 			</footer>
 		</div>
+		<script>
+			var userAgent = window.navigator.userAgent.toLowerCase();
+			const msg=document.getElementById("msg");
+
+			if (userAgent.indexOf('chrome') === -1) {
+				msg.innerHTML="Google Chromeでアクセスすることを推奨します"
+			}
+		</script>
 	</body>
 </html>
