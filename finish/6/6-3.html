@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>様々なHTML</title>
+	</head>
+	<body>
+	
+		<p><canvas id="canvas1" width="200" height="200"></canvas>
+
+		<script>
+			var canvas1 = document.getElementById("canvas1");
+			var ctx1=canvas1.getContext("2d");
+			ctx1.strokeStyle="pink";
+			ctx1.moveTo(50,70);
+			ctx1.lineTo(100,120);
+			ctx1.lineTo(150,70);
+			ctx1.lineWidth=1;
+			ctx1.lineCap="round";
+			ctx1.stroke();
+		</script>
+
+	</body>
+</html>
